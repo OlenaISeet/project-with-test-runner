@@ -1,0 +1,15 @@
+/*Common styles*/
+
+:root {
+    --text-usual: 'Montserrat', sans-serif;
+    --text-unusual: 'Dancing Script', cursive;
+}
+
+
+/*Global*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
