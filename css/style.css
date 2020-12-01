@@ -3,6 +3,9 @@
 :root {
     --text-usual: 'Montserrat', sans-serif;
     --text-unusual: 'Dancing Script', cursive;
+    --color-white: #ffffff;
+    --color-black: #222f3e;
+    --color-yellow: #feca57;
 }
 
 
@@ -12,4 +15,40 @@
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--color-black);
+}
+
+section {
+    padding: 60px 0;
+}
+
+
+/*Navigation*/
+
+.navigation {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.navigation ul {
+    padding: 0 auto;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation p {
+    color: var(--color-yellow);
+    font-family: var(--text-unusual);
+    font-size: 50px;
+    text-align: center;
 }
