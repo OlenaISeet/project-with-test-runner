@@ -6,6 +6,7 @@
     --color-white: #ffffff;
     --color-black: #222f3e;
     --color-yellow: #feca57;
+    --color-grey: #576574;
 }
 
 
@@ -34,16 +35,20 @@ section {
 .navigation {
     padding: 0 auto;
     margin: 0 auto;
+    background: var(--color-black);
 }
 
 .navigation ul {
     padding: 0 auto;
     margin: 0 auto;
     list-style-type: none;
+    font-family: var(--text-usual);
+    color: var(--color-white);
 }
 
 .navigation li {
     display: inline-block;
+    position: relative;
 }
 
 .navigation p {
@@ -51,4 +56,95 @@ section {
     font-family: var(--text-unusual);
     font-size: 50px;
     text-align: center;
+}
+
+
+/*Splash - should be the same page as background*/
+
+.background {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.first-line {
+    font-family: var(--text-unusual);
+    color: var(--color-white);
+    font-size: 48px;
+    text-align: center;
+}
+
+.second-line {
+    font-family: var(--text-usual);
+    color: var(--color-white);
+    font-size: 50px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: var(--text-usual);
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    color: var(--color-white);
+    background: var(--color-yellow);
+}
+
+
+/*Services*/
+
+.section-title {
+    color: var(--color-black);
+    text-align: center;
+    font-size: 48px;
+    font-family: var(--text-usual);
+    margin: 0 auto;
+}
+
+.section-subtitle {
+    color: var(--color-grey);
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--text-unusual);
+    margin: 0 auto;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box1,
+.box2,
+.box3 {
+    flex: 0 0 33.333%;
+    position: relative;
+}
+
+.boxes i {
+    color: var(--color-yellow);
+}
+
+.box-title {
+    text-align: center;
+    font-family: var(--text-usual);
+    font-size: 20px;
+}
+
+.boxes p {
+    font-family: var(--text-usual);
+    color: var(--color-grey);
+    font-size: 12px;
 }
