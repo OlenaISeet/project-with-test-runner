@@ -35,7 +35,10 @@ section {
 .navigation {
     padding: 0 auto;
     margin: 0 auto;
-    background: var(--color-black);
+    background-image: url("https://images.pexels.com/photos/301703/pexels-photo-301703.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-color: transparent;
+    background-position: center top;
+    background-size: cover;
 }
 
 .navigation ul {
