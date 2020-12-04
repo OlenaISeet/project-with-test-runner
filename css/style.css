@@ -58,16 +58,6 @@ section {
     text-align: center;
 }
 
-
-/*Splash - should be the same page as background*/
-
-.background {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: relative;
-}
-
 .first-line {
     font-family: var(--text-unusual);
     color: var(--color-white);
