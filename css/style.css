@@ -151,7 +151,7 @@ section {
     text-align: center;
     font-family: var(--text-usual);
     font-size: 15px;
-    margin-top: 5px;
+    margin: 0 0 12px 0;
 }
 
 .boxes p {
@@ -165,6 +165,7 @@ section {
 
 .portfolio {
     background-color: var(--color-grey-light);
+    position: center;
 }
 
 .box-img img {
@@ -179,7 +180,7 @@ section {
 .box7,
 .box8,
 .box9 {
-    flex: 0 0 33%;
+    flex: 0 0 33.33%;
     position: relative;
     min-height: 300px;
     margin-bottom: 96px;
@@ -189,12 +190,20 @@ section {
     position: absolute;
     height: 100%;
     width: 100%;
-    max-width: 750px;
-    max-height: 1000px;
+    max-width: 250px;
 }
 
 .description {
     color: var(--color-grey);
     font-family: var(--text-unusual);
     text-align: center;
+}
+
+.text {
+    background-color: var(--color-white);
+}
+
+.portfolio .text {
+    padding: 15px 0 15px 55%;
+    text-align: left;
 }
