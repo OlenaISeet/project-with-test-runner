@@ -158,7 +158,6 @@
     
     .portfolio {
         background-color: var(--color-grey-light);
-        position: center;
     }
     
     .box-img img {
@@ -180,9 +179,10 @@
     }
     
     .box-img {
-        height: 100%;
-        width: 100%;
-        max-width: 250px;
+        position: absolute;
+        max-width: 350px;
+        height: 80%;
+        width: 90%;
     }
     
     .description {
