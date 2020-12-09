@@ -42,7 +42,6 @@
     .row {
         text-align: center;
         display: flex;
-        justify-content: space-between;
     }
     
     .navigation ul {
@@ -50,24 +49,20 @@
         font-family: var(--text-usual);
         color: var(--color-white);
         text-align: center;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
     }
     
     .navigation li {
-        display: inline-flex;
         position: relative;
-    }
-    
-    .menu {
-        margin-top: 10px;
-        font-size: 20px;
     }
     
     .navigation p {
         color: var(--color-yellow);
         font-family: var(--text-unusual);
         font-size: 40px;
-        text-align: center;
-        margin-top: 10px;
+        text-align: left;
     }
     
     .first-line {
@@ -140,13 +135,18 @@
     .boxes i {
         color: var(--color-yellow);
         text-align: center;
+        border: 2px solid var(--color-yellow);
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        line-height: 75px;
     }
     
     .box-title {
         text-align: center;
         font-family: var(--text-usual);
         font-size: 15px;
-        margin: 0 0 12px 0;
+        margin: 0 0 5px 0;
     }
     
     .boxes p {
@@ -156,7 +156,7 @@
     }
     /*Portfolio*/
     
-    .portfolio {
+    .ourportfolio {
         background-color: var(--color-grey-light);
     }
     
@@ -179,25 +179,26 @@
     }
     
     .box-img {
-        position: absolute;
         max-width: 350px;
-        height: 80%;
-        width: 90%;
+        height: 200px;
+        width: 100%;
     }
     
     .description {
         color: var(--color-grey);
         font-family: var(--text-unusual);
         text-align: center;
+        margin: 0 0 10px 0;
+        padding-bottom: 20px;
     }
     
     .text {
         background-color: var(--color-white);
     }
     
-    .portfolio .text {
-        padding: 15px 0 15px 55%;
-        text-align: left;
+    .text>.box-title {
+        padding-top: 10px;
+        padding-bottom: 0;
     }
     /*Footer*/
     
